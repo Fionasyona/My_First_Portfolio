@@ -2,6 +2,9 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
 }
 
 main {
@@ -13,9 +16,25 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 2px solid #ddd;
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
+}
+header .logo {
+  font-size: 1.5;
+  font-weight: bold;
+  color: #ff4081;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
